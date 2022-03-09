@@ -2,7 +2,7 @@
 ### A simple BrainF*CK to C transpiler
 
 
-## Transpile
+# Transpile
 ```sh
 $ python3 main.py examples/hello_world.bf
 ```
@@ -10,12 +10,12 @@ $ python3 main.py examples/hello_world.bf
 # Compile
 ## Linux
 ```
-$ cc src/hello_world.bf.c -o bin/hello_world.bf -Iinclude
+$ cc src/hello_world.bf.c -o bin/hello_world.bf
 ```
 
 ## Windows
 ```
-C:\Users\...> clang src/hello_world.bf.c -o bin/hello_world.bf.exe -Iinclude
+C:\Users\...> clang src/hello_world.bf.c -o bin/hello_world.bf.exe
 ```
 
 # Run
